@@ -11,7 +11,7 @@ In enterprise procurement, manual contract review suffers from high cognitive fa
 ## 🚀 The Solution: Effective Trust Architecture
 The **Zero-Knowledge Legal Fleet** solves this paradigm by anchoring flexible LLM intelligence inside strict, non-LLM Python boundaries. The system isolates private enterprise data at the local infrastructure layer while safely leveraging Google's Gemini 1.5 Flash model to audit legal clauses across completely separate transactional domains.
 
-```text
+```
               [Raw Enterprise Document]
                           │
                           ▼
