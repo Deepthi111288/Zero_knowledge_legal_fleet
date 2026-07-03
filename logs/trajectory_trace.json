@@ -1,0 +1,41 @@
+{
+  "session_id": "fleet_trace_1783061943",
+  "domain": "nda",
+  "trajectory": [
+    {
+      "step": 1,
+      "node": "Data Sanitizer",
+      "action": "Regex-based PII/financial masking",
+      "status": "Success",
+      "timestamp": "2026-07-03T06:59:03Z",
+      "entities_masked": 0,
+      "tokens_before_sanitization": 13,
+      "tokens_after_sanitization": 13,
+      "tokens_saved": 0
+    },
+    {
+      "step": 2,
+      "node": "Nda Auditor (LLM)",
+      "action": "Cross-referenced clauses against skills/nda_auditor/nda_rules.md",
+      "status": "Flagged",
+      "timestamp": "2026-07-03T06:59:03Z",
+      "analysis": "Rule violation: Residuals clause detected \u2014 high leak risk.\nRule violation: Non-mutual NDA detected.",
+      "approx_tokens_sent_to_llm": 134
+    },
+    {
+      "step": 3,
+      "node": "Governance Gate",
+      "action": "Deterministic rule check on LLM analysis output",
+      "status": "TRIGGER_HUMAN_TRIAGE",
+      "timestamp": "2026-07-03T06:59:03Z"
+    },
+    {
+      "step": 4,
+      "node": "Human Triage",
+      "action": "Wrote resumable checkpoint 761e1f9b",
+      "status": "WAITING_FOR_HUMAN_REVIEW",
+      "timestamp": "2026-07-03T06:59:03Z",
+      "checkpoint_path": "logs/checkpoints\\761e1f9b.json"
+    }
+  ]
+}

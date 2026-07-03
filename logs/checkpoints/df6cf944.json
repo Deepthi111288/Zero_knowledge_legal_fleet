@@ -1,0 +1,11 @@
+{
+  "checkpoint_id": "df6cf944",
+  "domain": "contract",
+  "analysis": "Rule violation: Automatic renewal clause detected with no opt-out window.\nRule violation: Uncapped indemnity clause detected.",
+  "masked_text": "This deal shall automatically renew with uncapped indemnification.",
+  "reverse_map": {},
+  "status": "APPROVED_BY_HUMAN",
+  "created_at": "2026-07-03T05:52:19Z",
+  "reviewer_notes": "ok",
+  "resolved_at": "2026-07-03T05:52:19Z"
+}

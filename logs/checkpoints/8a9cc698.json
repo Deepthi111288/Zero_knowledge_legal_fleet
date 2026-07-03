@@ -1,0 +1,11 @@
+{
+  "checkpoint_id": "8a9cc698",
+  "domain": "nda",
+  "analysis": "Rule violation: Residuals clause detected \u2014 high leak risk.\nRule violation: Non-mutual NDA detected.",
+  "masked_text": "This NDA between [COMPANY_1] and a contractor is non-mutual and includes a residuals clause permitting use of retained information from memory.",
+  "reverse_map": {
+    "[COMPANY_1]": "Acme Corp"
+  },
+  "status": "PENDING_HUMAN_REVIEW",
+  "created_at": "2026-07-03T05:45:49Z"
+}

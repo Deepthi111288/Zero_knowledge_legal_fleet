@@ -1,0 +1,17 @@
+{
+  "checkpoint_id": "09a356bb",
+  "domain": "contract",
+  "analysis": "Rule violation: Automatic renewal clause detected with no opt-out window.\nRule violation: Uncapped indemnity clause detected.",
+  "masked_text": "This agreement between [COMPANY_1] and [COMPANY_2]. shall automatically renew each year unless terminated. [COMPANY_3] agrees to pay [CURRENCY_1] annually. [COMPANY_4]. shall provide uncapped indemnification for all damages.",
+  "reverse_map": {
+    "[CURRENCY_1]": "$45,000",
+    "[COMPANY_1]": "Acme Corp",
+    "[COMPANY_2]": "Globex Inc",
+    "[COMPANY_3]": "Acme Corp",
+    "[COMPANY_4]": "Globex Inc"
+  },
+  "status": "APPROVED_BY_HUMAN",
+  "created_at": "2026-07-03T05:45:49Z",
+  "reviewer_notes": "Indemnity cap negotiated separately, acceptable.",
+  "resolved_at": "2026-07-03T05:45:49Z"
+}

@@ -1,0 +1,9 @@
+{
+  "checkpoint_id": "761e1f9b",
+  "domain": "nda",
+  "analysis": "Rule violation: Residuals clause detected \u2014 high leak risk.\nRule violation: Non-mutual NDA detected.",
+  "masked_text": "This NDA is non-mutual and includes a residuals clause.",
+  "reverse_map": {},
+  "status": "PENDING_HUMAN_REVIEW",
+  "created_at": "2026-07-03T06:59:03Z"
+}
