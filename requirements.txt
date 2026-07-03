@@ -1,0 +1,5 @@
+# No external dependencies required for the core pipeline (stdlib only: re, json, os, time).
+# Add these if you wire in a real LLM provider:
+# anthropic>=0.40.0
+# google-generativeai>=0.8.0
+# openai>=1.0.0
